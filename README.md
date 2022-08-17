@@ -1,2 +1,3 @@
-# COMP-5710
-Auburn COMP-5710 Project
+# COMP 5710
+Auburn COMP 5710 Project  
+Software Quality Assurance
