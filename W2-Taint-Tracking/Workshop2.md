@@ -26,4 +26,3 @@ In our class lectures we learned the importance on why bugs and security vulnera
 
 ### Assignment 2 (Post Lab Experience) 
 - Complete the `checkFlow` function in `workshops/workshop2-analysis.py` so that the flow of execution for `workshops/workshop2-calc.py` is captured i.e., I get `100->val1->v1->res`
-- Upload your code, i.e., the updated `workshop2-analysis.py` file on Assignment 2 @ CANVAS  
