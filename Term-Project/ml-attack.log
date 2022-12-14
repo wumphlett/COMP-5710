@@ -1,0 +1,118 @@
+INFO:generation:generateUnitTest(None, None)
+ERROR:generation:generateUnitTest(None, None) FAILURE can only concatenate str (not "NoneType") to str
+INFO:generation:generateUnitTest(1, 2)
+ERROR:generation:generateUnitTest(1, 2) FAILURE can only concatenate str (not "int") to str
+INFO:generation:generateUnitTest(1.0, 2.0)
+ERROR:generation:generateUnitTest(1.0, 2.0) FAILURE can only concatenate str (not "float") to str
+INFO:generation:generateUnitTest([], {})
+ERROR:generation:generateUnitTest([], {}) FAILURE can only concatenate str (not "list") to str
+INFO:generation:generateUnitTest(bad-filename, random)
+ERROR:generation:generateUnitTest(bad-filename, random) FAILURE [Errno 2] No such file or directory: '../../output/attack_unit_test/test_attack_bad-filename.py'
+INFO:label_pert/knn:euc_dist(None, None)
+ERROR:label_pert/knn:euc_dist(None, None) FAILURE unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+INFO:label_pert/knn:euc_dist(bad, args)
+ERROR:label_pert/knn:euc_dist(bad, args) FAILURE unsupported operand type(s) for -: 'str' and 'str'
+INFO:label_pert/knn:euc_dist([], {})
+ERROR:label_pert/knn:euc_dist([], {}) FAILURE unsupported operand type(s) for -: 'list' and 'dict'
+INFO:label_pert/knn:euc_dist(inf, inf)
+INFO:label_pert/knn:euc_dist(-inf, inf)
+INFO:label_pert/knn:euc_dist(1j, 1)
+INFO:label_pert/knn:euc_dist(nan, nan)
+INFO:label_pert/knn:predict(None, 0)
+ERROR:label_pert/knn:predict(None, 0) FAILURE object of type 'int' has no len()
+INFO:label_pert/knn:predict(None, 1.0)
+ERROR:label_pert/knn:predict(None, 1.0) FAILURE object of type 'float' has no len()
+INFO:label_pert/knn:predict(None, bad-iterable)
+ERROR:label_pert/knn:predict(None, bad-iterable) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/knn:predict(None, [None, None, None])
+ERROR:label_pert/knn:predict(None, [None, None, None]) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/knn:predict(None, [])
+INFO:label_pert/knn:predict(None, [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0.]])
+ERROR:label_pert/knn:predict(None, [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0.]]) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/main:call_loss(None)
+ERROR:label_pert/main:call_loss(None) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(0)
+ERROR:label_pert/main:call_loss(0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(1.0)
+ERROR:label_pert/main:call_loss(1.0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss([])
+ERROR:label_pert/main:call_loss([]) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss({})
+ERROR:label_pert/main:call_loss({}) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(bad-model-name)
+ERROR:label_pert/main:call_loss(bad-model-name) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(0, 0, None)
+ERROR:label_pert/main:call_prob(10, 10, None) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(None, None, 0)
+ERROR:label_pert/main:call_prob(10, 10, 0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(doesnt, matter, 1.0)
+ERROR:label_pert/main:call_prob(10, 10, 1.0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(-inf, inf, [])
+ERROR:label_pert/main:call_prob(10, 10, []) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob([], [], {})
+ERROR:label_pert/main:call_prob(10, 10, {}) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob([], [], bad-model-name)
+ERROR:label_pert/main:call_prob(10, 10, bad-model-name) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:generation:generateUnitTest(None, None)
+ERROR:generation:generateUnitTest(None, None) FAILURE can only concatenate str (not "NoneType") to str
+INFO:generation:generateUnitTest(1, 2)
+ERROR:generation:generateUnitTest(1, 2) FAILURE can only concatenate str (not "int") to str
+INFO:generation:generateUnitTest(1.0, 2.0)
+ERROR:generation:generateUnitTest(1.0, 2.0) FAILURE can only concatenate str (not "float") to str
+INFO:generation:generateUnitTest([], {})
+ERROR:generation:generateUnitTest([], {}) FAILURE can only concatenate str (not "list") to str
+INFO:generation:generateUnitTest(bad-filename, random)
+ERROR:generation:generateUnitTest(bad-filename, random) FAILURE [Errno 2] No such file or directory: '../../output/attack_unit_test/test_attack_bad-filename.py'
+INFO:label_pert/knn:euc_dist(None, None)
+ERROR:label_pert/knn:euc_dist(None, None) FAILURE unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+INFO:label_pert/knn:euc_dist(bad, args)
+ERROR:label_pert/knn:euc_dist(bad, args) FAILURE unsupported operand type(s) for -: 'str' and 'str'
+INFO:label_pert/knn:euc_dist([], {})
+ERROR:label_pert/knn:euc_dist([], {}) FAILURE unsupported operand type(s) for -: 'list' and 'dict'
+INFO:label_pert/knn:euc_dist(inf, inf)
+INFO:label_pert/knn:euc_dist(-inf, inf)
+INFO:label_pert/knn:euc_dist(1j, 1)
+INFO:label_pert/knn:euc_dist(nan, nan)
+INFO:label_pert/knn:predict(None, 0)
+ERROR:label_pert/knn:predict(None, 0) FAILURE object of type 'int' has no len()
+INFO:label_pert/knn:predict(None, 1.0)
+ERROR:label_pert/knn:predict(None, 1.0) FAILURE object of type 'float' has no len()
+INFO:label_pert/knn:predict(None, bad-iterable)
+ERROR:label_pert/knn:predict(None, bad-iterable) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/knn:predict(None, [None, None, None])
+ERROR:label_pert/knn:predict(None, [None, None, None]) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/knn:predict(None, [])
+INFO:label_pert/knn:predict(None, [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0.]])
+ERROR:label_pert/knn:predict(None, [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+  0. 0.]]) FAILURE 'NoneType' object has no attribute 'X_train'
+INFO:label_pert/main:call_loss(None)
+ERROR:label_pert/main:call_loss(None) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(0)
+ERROR:label_pert/main:call_loss(0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(1.0)
+ERROR:label_pert/main:call_loss(1.0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss([])
+ERROR:label_pert/main:call_loss([]) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss({})
+ERROR:label_pert/main:call_loss({}) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_loss(bad-model-name)
+ERROR:label_pert/main:call_loss(bad-model-name) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(0, 0, None)
+ERROR:label_pert/main:call_prob(10, 10, None) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(None, None, 0)
+ERROR:label_pert/main:call_prob(10, 10, 0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(doesnt, matter, 1.0)
+ERROR:label_pert/main:call_prob(10, 10, 1.0) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob(-inf, inf, [])
+ERROR:label_pert/main:call_prob(10, 10, []) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob([], [], {})
+ERROR:label_pert/main:call_prob(10, 10, {}) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
+INFO:label_pert/main:call_prob([], [], bad-model-name)
+ERROR:label_pert/main:call_prob(10, 10, bad-model-name) FAILURE [Errno 2] No such file or directory: 'data//IST_MIR.csv'
